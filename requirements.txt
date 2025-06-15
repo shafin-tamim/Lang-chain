@@ -1,0 +1,10 @@
+langchain
+langchain-community
+chromadb
+transformers
+sentence-transformers
+bitsandbytes
+beautifulsoup4
+unstructured
+PyMuPDF
+torch
