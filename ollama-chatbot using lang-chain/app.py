@@ -10,7 +10,7 @@ llm = Ollama(model="qwen2.5vl:3b")
 # Optional: You can use a prompt template if you want to structure messages
 prompt_template = PromptTemplate(
     input_variables=["question"],
-    template="You are an intelligent and friendly AI companion, skilled in understanding and helping humans. Please respond to the following:\nQuestion: {question}\nAnswer:"
+    template="You are a helpful assistant. Answer the following:\nQuestion: {question}\nAnswer:"
 )
 
 @app.route("/")
